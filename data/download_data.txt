@@ -1,0 +1,7 @@
+# fink-client>=12.0.0
+finkctl transfer \
+    -survey lsst \
+    -topic ftransfer_lsst_2026-11-03_799186 \
+    -outdir ftransfer_lsst_2026-11-03_799186 \
+    --dump_schemas \
+    --verbose

@@ -1,0 +1,18 @@
+blocks:
+- b_outside_galactic_plane_20_deg
+- NOT b_xmatched_mangrove
+- NOT b_xmatched_simbad_galaxy
+- NOT b_xmatched_vsx
+- NOT b_xmatched_vsx_star
+catalog_filename: use_this_for_xmatch.csv
+content:
+- prvDiaSources
+- diaSource
+dates:
+  startdate: '2026-07-01'
+  stopdate: '2026-07-14'
+extra_cond:
+- diaObject.nDiaSources > 120
+filters:
+- NOT is_solar_system
+- NOT mdwarf_flare
